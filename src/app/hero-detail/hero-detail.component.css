@@ -1,4 +1,4 @@
-/* HeroDetailComponent에 적용되는 CSS 스타일 */
+/* HeroDetailComponent's private CSS styles */
 label {
   color: #435960;
   font-weight: bold;
@@ -9,6 +9,7 @@ input {
 }
 button {
   margin-top: 20px;
+  margin-right: .5rem;
   background-color: #eee;
   padding: 1rem;
   border-radius: 4px;

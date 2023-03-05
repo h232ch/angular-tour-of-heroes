@@ -18,6 +18,7 @@ export class HeroesComponent {
   }
   // ngOnInit 라이프싸이클 함수를 이용해서 초기값을 세팅해줌
   ngOnInit(): void {
+    console.log('heroes component ngOnInit occur!')
     this.getHeroes()
   }
 
